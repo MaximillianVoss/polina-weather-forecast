@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Weather forecast",
+    "slug": "homework-09-weather-forecast",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow this homework app to use your location while it is open."
+        }
+      ]
+    ]
+  }
+}
